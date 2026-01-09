@@ -10,7 +10,8 @@ export function Main({ name = "Extension" }) {
       style={{
         display: "flex",
         flexDirection: "column",
-        padding: 16
+        padding: 16,
+        width: 400
       }}>
       <h1>
         Welcome to your <a href="https://www.plasmo.com">Plasmo</a> {name}!

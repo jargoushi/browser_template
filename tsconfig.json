@@ -1,5 +1,5 @@
 {
-  "extends": "plasmo/templates/tsconfig.base",
+  "extends": "plasmo/templates/tsconfig.base.json",
   "exclude": [
     "node_modules"
   ],
@@ -17,6 +17,12 @@
       ]
     },
     "baseUrl": ".",
+    "jsx": "preserve",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "isolatedModules": true,
     "plugins": [
       {

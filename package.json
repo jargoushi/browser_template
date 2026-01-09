@@ -27,8 +27,7 @@
     "@types/react-dom": "19.0.3",
     "prettier": "3.4.2",
     "typescript": "5.7.3",
-    "@plasmohq/rps": "workspace:*",
-    "@plasmohq/storage": "workspace:*"
+    "npm-run-all": "^4.1.5"
   },
   "manifest": {
     "host_permissions": [
