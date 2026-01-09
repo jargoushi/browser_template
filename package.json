@@ -14,7 +14,11 @@
     "build:next": "next build"
   },
   "dependencies": {
+    "@radix-ui/react-scroll-area": "^1.2.10",
+    "@radix-ui/react-separator": "^1.1.8",
     "@radix-ui/react-slot": "^1.2.4",
+    "@radix-ui/react-switch": "^1.2.6",
+    "@radix-ui/react-tabs": "^1.1.13",
     "next": "15.1.6",
     "plasmo": "0.90.5",
     "react": "19.0.0",
