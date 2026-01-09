@@ -1,7 +1,8 @@
-import { Main } from "~components/main"
+import "@/app/globals.css"
+import IndexPage from "@/app/page"
 
 function IndexPopup() {
-  return <Main />
+  return <IndexPage name="Popup" />
 }
 
 export default IndexPopup
