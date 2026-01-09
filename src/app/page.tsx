@@ -313,7 +313,6 @@ export default function IndexPage({ name = "App" }) {
                   </div>
                 )}
               </div>
-              </div>
             </TabsContent>
 
             <TabsContent value="settings" className="mt-0 h-[410px] overflow-y-auto px-4 py-3 custom-scrollbar">
